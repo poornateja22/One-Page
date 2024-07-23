@@ -1,0 +1,389 @@
+html, body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar {
+    padding: 30px 50px;
+}
+.navbar h2 {
+    color: #12436b;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-main{
+    color:#6398c1;
+}
+.navbar a {
+    text-decoration: none;
+    color: #12436b;
+}
+/* .nav-right ul li {
+    list-style: none;
+    padding: 20px;
+} */
+#drop {
+    border: 0px;
+    color: #12436b;
+}
+#btn {
+    margin-left: 10px;
+    background: #2585cf;
+    border-radius: 5px;
+    border: 0;
+    color: white ;
+    padding: 2px 20px;
+} 
+
+/* banner */
+.text{
+    margin-top: 100px;
+    text-align: center;
+    color: #12436b;
+}
+.text p{
+    color: gray;
+}
+#banner-btn {
+    background: #2585cf;
+    border-radius: 5px;
+    border: 0;
+    color: white ;
+    font-weight: bolder;
+    padding: 15px 40px;
+}
+.text h1{
+    margin-top: 250px;
+    font-weight: bold;
+}
+.in{
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+#c1{
+    margin-left: 20px;
+    width: 250px;
+    background: white;
+    padding: 20px;
+    color: #12436b;
+}
+#c1 p{
+    color: gray;
+}
+#c1 i{
+    padding: 50px 0px;
+}
+@media only screen and (min-width:400px) and (max-width:700px) {
+    .text {
+        margin-top: -100px;
+    }
+}
+
+/* About us */
+.au{
+    margin-top: 100px;
+    text-align: center;
+    color: #003663;
+}
+.get {
+    background-color: #2585cf;
+    color: white;
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+@media (max-width:576px) and (min-width:400px){
+    .au{
+        margin-top: 1200px;
+    }
+    #aa {
+        flex-direction: column;
+    }
+    #aa p{
+        font-size: 0.7rem;
+    } 
+} 
+/* numbering */
+.num{
+    font-size: 50px;
+    font-weight: bold;
+    color: #2585cf;
+    justify-content: space-evenly;
+}
+#num{
+    background: #d6e2eb;
+    padding-left:200px !important;
+    padding: 50px;
+    margin-top: 50px;
+}
+@media (max-width:768px){
+    #num{
+        flex-direction: column;
+    }
+}
+
+/* image + text */
+.about{
+    margin-top: 50px;
+}
+.about img{
+    width: 80%;
+    margin-left: 30px;
+}
+.about i{
+    margin-top: 10px;
+}
+@media (max-width:576px) and (min-width:400px){
+   .about p,.about h3{
+    font-size: 0.4rem;
+   }
+   
+}
+@media (max-width:900px) {
+    [alt="left image"]{
+        height: 450px;
+    }
+}
+
+/* clients */
+.clients{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background:#d6e2eb ;
+    padding: 50px;
+}
+.clients img{
+    width:10%;
+}
+
+/*  Testmonials */
+
+#test {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+#test-head {
+    margin-left: 200px;
+    color: #12436b;
+    font-weight: bolder;
+}
+#testpara{
+    background:gainsboro;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+}
+.testimg{
+    border-radius: 50%;
+    height: 80px;
+    margin-right: 190px;
+    margin-top: -50px;
+    box-shadow:5px 5px 10px #f5f9fc;
+}
+#testimonials h6{
+    color:#18548d;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+#testimonials{
+    margin-top: 30px;
+}
+#circles {
+    padding-left: 600px;
+}
+#circles i{
+    margin-left: 5px;
+}
+@media (max-width:576px) and (min-width:400px){
+    #test p{
+        font-size: 0.5rem;
+        margin-left: -250px;
+    }
+    #test h3{
+        margin-left: -200px;
+    }
+}
+/* services */
+#serv {
+    text-align: center;
+    margin-top: 100px;
+}
+#serv-head {
+    color: #12436b;
+    font-weight: bolder;
+}
+.serv-card {
+    text-align: center;
+    /* padding: 30px; */
+}
+.serv-card p {
+    font-size: small;
+}
+.services {
+    margin-left: 50px;
+    width: 350px;
+}
+.services-bot {
+    margin-left: 50px;
+    width: 350px;
+}
+.serv-title {
+    color: #12436b;
+    font-weight: bolder;
+}
+#serv-i i {
+    padding: 100px 50px 50px 50px;
+}
+#serv-i {
+    margin-top: 50px;
+}
+
+/* call to action */
+.cal-to {
+    margin-top: 50px;
+    padding: 80px;
+    text-align: center;
+    color: white;
+    background: #2585cf;
+}
+.cal-but {
+    color: white;
+    border: 2px solid white;
+    background: #2585cf;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+}
+
+/* portfolio */
+#port {
+    text-align: center;
+    margin-top: 50px;
+}
+#port-head {
+    color: #12436b;
+    font-weight: bolder;
+}
+#port li { 
+    padding: 20px;
+    list-style: none;
+}
+#port-list {
+    justify-content: center;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+#port img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+/* team */
+#team {
+    text-align: center;
+    margin-top: 50px;
+    background: #d6e2eb;
+    padding: 30px;
+}
+#team-head {
+    color: #12436b;
+    font-weight: bolder;
+}
+#team-img {
+    justify-content: space-between;
+}
+
+/* pricing */
+#price {
+    text-align: center;
+    margin-top: 50px;
+    /* padding: 30px; */
+}
+#price-head {
+    color: #12436b;
+    font-weight: bolder;
+}
+#pc1{
+    padding: 20px;
+}
+#pc1:hover{
+    background: #2585cf;
+    transform: scale(1.1);
+    color: white ;
+}
+
+/* FAQ's */
+.faq{
+    background: #edf3f8;
+    padding: 50px;
+}
+#faq{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* contact */
+.cont {
+    text-align: center;
+    margin-top: 50px;
+}
+.cont-head {
+    color: #12436b;
+    font-weight: bolder;
+}
+
+/* address */
+.add {
+    margin-top: 30px;
+    padding: 50px;
+}
+.add-left-btn {
+    background: #2585cf;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+#add-p{
+    color:  #12436b;
+    font-weight: bolder;
+}
+form {
+    padding: 0px 80px;
+}
+#add-right-btn {
+    background: #2585cf;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: 0px;
+    margin-left: 100px;
+}
+
+/* footer */
+.foot {
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 10px;
+}
+#foot-head {
+    color:  #12436b;
+    font-weight: bolder;
+}
+.foot-icon {
+    padding: 0px 40px;
+    justify-content: space-between;
+}
+.foot-links a {
+    text-decoration: none;
+    color: black;
+}
+@media (min-width:400px) and (max-width:780) {
+    footer {
+        flex-direction: column;
+    }
+}
